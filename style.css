@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: #24292e;
+  font-family: Segoe UI,sans-serif;
+}
+.cv-content {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.skills-matrix {
+  border-collapse: collapse;
+}
+.skills-matrix tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+strong {
+  font-weight: 600;
+}
+td {
+  border: 1px solid #dfe2e5;
+  padding: 6px 13px;
+}
+th {
+  border: 1px solid #dfe2e5;
+  padding: 6px 13px;
+}
+a {
+  text-decoration: none;
+  color: #1513ff;
+}
+.cv-photo {
+  width: 200px;
+  height: 200px;
+  background: url("./assets/img/cv-photo.jpg") 80% 50% no-repeat;
+  background-size: 170% 120%;
+  overflow: hidden;
+}
